@@ -38,6 +38,8 @@ i , span{
 .contenitore_main{
     height: 100vh;
     background-color: black;
+    overflow-y: scroll;
+    padding-bottom: 130px;
 }
 
 /* Contenitore di Pinco Pallo SINGOLO */
@@ -54,4 +56,57 @@ i , span{
     padding: 3px;
     left: 0;
     bottom: 3%;
+    z-index: 5;
+}
+
+/* Grandezza img */
+.contenitore_card{
+    background-size: cover;
+}
+.img_card{
+    width: 100%;
+    height: auto;
+}
+
+/* Stili principali del contenitore footer */
+.contenitore_footer{
+    height: 100px;
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+/* Comandi del footer per zoom */
+.contenitore_footer i{
+    font-size: 30px;
+}
+.contenitore_footer span{
+    display: block;
+}
+.mute-mic{
+    padding: 8px;
+}
+.fa-microphone{
+    padding: 10px;
+}
+
+/* Arrow UP */
+.arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#fix{
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
