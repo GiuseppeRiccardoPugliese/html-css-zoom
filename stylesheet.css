@@ -1,0 +1,51 @@
+/* Stili di pagina generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile contenitore principale header */
+.contenitore_header{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Colore dei simboli e dello speaker view */
+i , span{
+    color: white;
+    padding: 2px;
+}
+
+/* Stile dei contenuti all'interno di header e centralizzazione */
+.speaker_view , .full_screen{
+    background-color: #4a4a4a;
+    height: 25px;
+    padding: 5px;
+    margin: 3px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* Stili del contenitore del contenuto principale della pagina */
+.contenitore_main{
+    height: 100vh;
+    background-color: grey;
+}
+.img_card{
+    height: 100%;
+    position: relative;
+}
+.label{
+    position: absolute;
+    background-color: #63707a;
+    padding: 3px;
+    top: 100%;
+    z-index: 3;
+}
