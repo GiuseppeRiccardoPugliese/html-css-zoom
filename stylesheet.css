@@ -11,12 +11,13 @@
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 100px;
 }
 
 /* Colore dei simboli e dello speaker view */
 i , span{
     color: white;
-    padding: 2px;
+    padding: 3px;
 }
 
 /* Stile dei contenuti all'interno di header e centralizzazione */
@@ -24,7 +25,7 @@ i , span{
     background-color: #4a4a4a;
     height: 25px;
     padding: 5px;
-    margin: 3px;
+    margin: 5px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -36,16 +37,21 @@ i , span{
 /* Stili del contenitore del contenuto principale della pagina */
 .contenitore_main{
     height: 100vh;
-    background-color: grey;
+    background-color: black;
 }
-.img_card{
-    height: 100%;
+
+/* Contenitore di Pinco Pallo SINGOLO */
+.contenitore_card{
     position: relative;
+    margin-bottom: 5px;
+    display: inline-block;
 }
+
+/* Label */
 .label{
     position: absolute;
     background-color: #63707a;
     padding: 3px;
-    top: 100%;
-    z-index: 3;
+    left: 0;
+    bottom: 3%;
 }
