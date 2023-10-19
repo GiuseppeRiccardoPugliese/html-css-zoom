@@ -82,22 +82,58 @@ i , span{
     z-index: 100;
     display: flex;
     align-content: center;
+    justify-content: space-between;
 }
 
-/* Comandi del footer per zoom */
+/* Grandezza font icone */
 .contenitore_footer i{
     font-size: 30px;
 }
 .contenitore_footer span{
     display: block;
 }
+
+/* Padding vario per sistemare ulteriormente le cose */
 .icons{
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.fa-microphone , .fa-video{
+.fa-microphone , .fa-video , .fa-user-plus , .fa-users , .fa-chart-column , .fa-share-from-square , .fa-comment , .fa-record-vinyl , .fa-table-cells-large , .fa-ellipsis{
     padding: 10px;
 }
 
+/* Parte sulla sinistra del footer */
+.left_side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Parte centrale del footer */
+.center_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* Parte sulla destra del footer */
+.right_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a4a4a;
+    width: 150px;
+}
+#color_exit{
+    color: #f30519;
+}
+a{
+    text-decoration: none;
+}
 /* Arrow UP */
 .arrow{
     border: solid white;
@@ -109,7 +145,9 @@ i , span{
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
+
 #fix{
+    /* Fix arrow */
     margin-left: 10px;
     margin-top: 10px;
     vertical-align: middle;
