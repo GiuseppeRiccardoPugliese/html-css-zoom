@@ -40,12 +40,16 @@ i , span{
     background-color: black;
     overflow-y: scroll;
     padding-bottom: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Contenitore di Pinco Pallo SINGOLO */
 .contenitore_card{
     position: relative;
     margin-bottom: 5px;
+    margin-right: 3px;
     display: inline-block;
 }
 
@@ -77,7 +81,7 @@ i , span{
     bottom: 0;
     z-index: 100;
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 /* Comandi del footer per zoom */
@@ -87,10 +91,10 @@ i , span{
 .contenitore_footer span{
     display: block;
 }
-.mute-mic{
+.icons{
     padding: 8px;
 }
-.fa-microphone{
+.fa-microphone , .fa-video{
     padding: 10px;
 }
 
