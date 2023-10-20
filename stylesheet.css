@@ -36,7 +36,8 @@ i , span{
 
 /* Stili del contenitore del contenuto principale della pagina */
 .contenitore_main{
-    height: 100vh;
+    /* height: 100vh; */
+    height: calc(100vh - 150px);
     background-color: black;
     overflow-y: scroll;
     padding-bottom: 130px;
